@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.container{
+background-color: blue;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.login{
+height: 100%;
+width: 40%;
+background-color: black;
+color: white;
+padding: 40px;  
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.image-box{
+    background-color: #1D1D1D;
+    width: 60%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-box img{
+
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink-btn{
+    padding: 12px 20px;
+    background-color: #ff1675;
+    border: none;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.sign-btn{
+    margin-top: 20px;
+    background-color: #0074ab;
+    border: none;
+    height: 40px;
+    transition: all ease-in 0.3s;
+}
+
+.sign-btn:hover{
+    background-color: #0093d8;
+    letter-spacing: 5px;
+}
+
+
+.border{
+    width: 100%;
+    border-bottom: 1px solid gray ;
+}
+
+.create-btn{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(138, 153, 168 , 0.25);
+    color: #fff
+}
+
+/* Avinash Start */
+input[type=email],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.size_link{
+    font-size: 150%;
+} 
+/* Avinash End */
+
+a{
+    text-decoration: none;
+    color: #0074ab;
+    font-size: 14px;
+}
+
+@media(max-width : 768px){
+
+    .container{
+        display: block;
+    }
+
+    .image-box{
+       width: 100%;
+       /* display: none; */
+    }
+
+    .login{
+        width: 100%;
+    }
+}
